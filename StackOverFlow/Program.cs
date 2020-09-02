@@ -8,8 +8,13 @@ namespace StackOverFlow
         {
             Console.WriteLine("Hello World!");
         }
-        public class Post()
-            {
+        public class Post
+        {
+            private string title;
+            private string description;
+            private DateTime dateCreated;
+
+        }
     }
     }
 }
